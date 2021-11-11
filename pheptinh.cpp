@@ -2,6 +2,9 @@
 using namespace std;
 <<<<<<< HEAD
 int tong(int a, int b);
+int tich(int a, int b) {
+	return a * b;
+}
 int hieu(int a, int b)
 {
 		int hieu;
@@ -26,18 +29,20 @@ int main()
 	cin >> a;
 	cout << "Nhap so nguyen 2: ";
 	cin >> b;
-	cout << "Chon phep toan (+,-) ";
+	cout << "Chon phep toan (+,-,*) ";
 	cin >> phepToan;
 <<<<<<< HEAD
 
 	if (strcmp(phepToan, "-") == 0)
 		return hieu;
-	cout << "Phep hieu la:" << hieu;
+	cout << "Phep hieu la:" << hieu(a,b);
 =======
 	
 	if (strcmp(phepToan, "+") == 0)
-		cout << "Phep tong la :" << tong;
->>>>>>> fb0a6993e23c75ea7716bd0e6d4b786adec4a247
+		cout << "Phep tong la :" << tong(a,b);
+>>>>>> > fb0a6993e23c75ea7716bd0e6d4b786adec4a247
+if (phepToan == *)
+cout << "Phep tinh tich là:" << tich(a, b);
 	system("pause");
 	return 0;
 }
