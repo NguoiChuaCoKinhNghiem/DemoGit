@@ -26,6 +26,7 @@ bool kTraChanLe(int x) {
 		return false;
 }
 
+
 int main()
 {
 	int a, b;
