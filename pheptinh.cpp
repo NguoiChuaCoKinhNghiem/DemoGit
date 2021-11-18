@@ -7,7 +7,11 @@ int tong(int a, int b)
 	return tong;
 }
 int hieu(int a, int b);
-
+bool kTra(int x) {
+	if (x % 2 == 0)
+		return true;
+	return false;
+}
 int main()
 {
 	int a, b;
@@ -21,6 +25,13 @@ int main()
 	
 	if (strcmp(phepToan, "+") == 0)
 		cout << "Phep tong la :" << tong;
+	int x;
+	cout << "Nhap x:";
+	cin << x;
+	if (ktra)
+		cout << "So nguyen x=" + x + "la so chan";
+	cout << "So nguyen x=" + x + "la so le";
+
 	system("pause");
 	return 0;
 }
