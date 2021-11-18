@@ -11,7 +11,7 @@ int hieu(int a, int b)
 		hieu = a - b;
 		return hieu;
 }
-=======
+
 int tong(int a, int b)
 {
 	int tong;
@@ -19,7 +19,12 @@ int tong(int a, int b)
 	return tong;
 }
 int hieu(int a, int b);
->>>>>>> fb0a6993e23c75ea7716bd0e6d4b786adec4a247
+bool kTraChanLe(int x) {
+	if (x % 2 == 0)
+		return true
+	else
+		return false;
+}
 
 int main()
 {
@@ -31,18 +36,26 @@ int main()
 	cin >> b;
 	cout << "Chon phep toan (+,-,*) ";
 	cin >> phepToan;
-<<<<<<< HEAD
+
 
 	if (strcmp(phepToan, "-") == 0)
 		return hieu;
 	cout << "Phep hieu la:" << hieu(a,b);
-=======
+
 	
 	if (strcmp(phepToan, "+") == 0)
 		cout << "Phep tong la :" << tong(a,b);
->>>>>> > fb0a6993e23c75ea7716bd0e6d4b786adec4a247
-if (phepToan == *)
-cout << "Phep tinh tich là:" << tich(a, b);
+
+	if (phepToan == *)
+	cout << "Phep tinh tich là:" << tich(a, b);
+	int x''
+	cout << "Nhap so nguyen x:";
+	cin >> x;
+	if (kTraChanLe)
+		cout << "So nguyen x=" + x + " la so chan";
+	else
+		cout << "So nguyen x=" + x + " la so le";
+
 	system("pause");
 	return 0;
 }
