@@ -19,12 +19,7 @@ int tong(int a, int b)
 	return tong;
 }
 int hieu(int a, int b);
-bool kTraChanLe(int x) {
-	if (x % 2 == 0)
-		return true
-	else
-		return false;
-}
+
 
 
 int main()
